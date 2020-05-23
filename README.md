@@ -10,7 +10,7 @@
 
 # User Stories
 
-  * As a user, I want to listen to music from through a terminal command 
+  * As a user, I want to listen to music from through a terminal command.
 
   * As a user, I want to login with a user name and password.
 
@@ -20,7 +20,7 @@
 
 # Project management board
 
-  * [trello](https://trello.com/b/mwLqGIdt/401-midterm)
+  * [Trello](https://trello.com/b/mwLqGIdt/401-midterm)
 
 # Software Requirements
 
