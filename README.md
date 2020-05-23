@@ -24,7 +24,7 @@
 
 # Software Requirements
 
-[Software Requirements Document](./requirements)
+[Software Requirements Document](https://github.com/team-best/401midterm/blob/master/requirements.md)
 
 # Domain Modeling
 
