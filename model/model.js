@@ -7,13 +7,22 @@ class Model {
          this.schema = schema;
      }
 
-     create(record) {
-        return this.create(record);
+     async create(records) {
+       
+           try {
+                let record = new this.schema(records);
+                return await record.save();
+           } catch (e) {
+               console.error('Error to creating record');
+               return false;
+
+           }
+               
      }
 
      read(query) {
          if(mongoose.Types.ObjectId.isValid(query)) return this.schema.findById(query);
-         else return this.schema.find({username: query});
+         else return this.schema.find(query);
      }
 
      update(_id, record) {
@@ -21,7 +30,7 @@ class Model {
      }
 
      delete(_id) { 
-         return this.schema.deleteOne({_is});
+         return this.schema.deleteOne({_id});
      }
 }
 
