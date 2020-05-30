@@ -31,7 +31,10 @@ router.get('/song', (req, res) => {
       let newSong =  songToPlay[Math.floor(Math.random()*songToPlay.length)];
       console.log('magic', newSong);
 
+      
+
     })
+
 
     .catch(() => {
       errorHandler('If you did not get result. Please, try again', res);
