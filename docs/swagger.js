@@ -6,7 +6,7 @@ const generateSwagger = (app) => {
   let options = {
     swaggerDefinition: {
       info: {
-        description: 'Access CRUD operations for products and categories',
+        description: 'Access CRUD operations for music-app user',
         title: 'My API Server',
         version: '1.0.0',
       },
@@ -24,7 +24,7 @@ const generateSwagger = (app) => {
       },
     },
     basedir: __dirname, //app absolute path
-    files: ['../lib/server.js', '../lib/routes/*'], //Path to the API handlers
+    files: ['../lib/server.js', '../route/*'], //Path to the API handlers
   };
 
   expressSwagger(options);
