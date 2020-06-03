@@ -8,16 +8,22 @@ class Model {
      }
 
      async create(records) {
-      console.log(records) 
            try {
                 let record = new this.schema(records);
                 return await record.save();
            } catch (e) {
-               console.error('Error to creating record');
-               return false;
+               console.log('Error to creating record');
 
            }
                
+     }
+     async read(_id){
+         try{
+             let record = await this.schema.findById({_id});
+             return record;
+         }catch (e){
+             console.log('cannot find user id')
+         }
      }
 
      read(query) {
@@ -25,12 +31,22 @@ class Model {
          else return this.schema.find(query);
      }
 
-     update(_id, record) {
-         return this.schema.updateOne({_id}, record);
+     async update(_id, record) {
+         try{
+             let result = await this.schema.findByIdAndUpdate(_id, record);
+             return result;
+         }catch (e){
+             console.error('error on update')
+         }
      }
 
-     delete(_id) { 
-         return this.schema.deleteOne({_id});
+     async delete(_id) { 
+         try{
+            let record = await this.schema.findByIdAndDelete({_id});
+            return record;
+         }catch (e) {
+             console.log('cannot delete user by id')
+         }
      }
 }
 
