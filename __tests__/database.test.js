@@ -27,8 +27,6 @@ describe('Database can create', () => {
            
         });
 
-        console.log(response);
-
         expect(response).toBeTruthy();
         expect(response.username).toBe('Sue');
     });
@@ -39,8 +37,6 @@ describe('Database can create', () => {
             password: 'suepassword',
             
         });
-
-        console.log(response);
 
         expect(response).toBeFalsy();
     });
@@ -60,7 +56,6 @@ describe('Database can delete', () => {
 
     it('An existing record', async () => {
         let records = await user.read({ username: 'Ted' });
-        console.log(records);
         expect(records.length).toBe(1);
         let userId = records[0]._id;
 
