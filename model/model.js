@@ -12,6 +12,7 @@ class Model {
                 let record = new this.schema(records);
                 return await record.save();
            } catch (e) {
+
                console.log('Error to creating record');
 
            }
