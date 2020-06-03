@@ -8,12 +8,11 @@ class Model {
      }
 
      async create(records) {
-      console.log(records) 
            try {
                 let record = new this.schema(records);
                 return await record.save();
            } catch (e) {
-               console.error('Error to creating record');
+               console.error('Error creating new record. Username already exists.');
                return false;
 
            }
