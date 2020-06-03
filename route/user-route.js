@@ -49,7 +49,10 @@ router.post('/user', async (req, res, next) => {
  * @returns {object} 200 - The updated object
  * @returns {Error} - If there was an issue updating in the db
  */
+
 router.put('/user/:_id', async (req, res, next) => {
+
+
   let record = await ModelUser.update(req.params._id, req.body);
   res.send(record);
 });
