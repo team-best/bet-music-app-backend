@@ -12,7 +12,7 @@ const ModelUser = new modelFinder(userSchema);
  * @returns {object} 200 - get user
  */
 router.get('/user', async (req, res, next) => {
-  let results = await ModelUser.readByQuery({});
+  let results = await ModelUser.read({});
   res.send(results);
 });
 
