@@ -2,7 +2,15 @@
 
 # Project Idea - Node Backend Application
 
-  * Create an app that will allow a user to guess the correct title and artist from a snippet of song. The user can guess the artist of the song. If the user failed to answer correctly, the app will give the user the correct answer.
+  * Create an app that will allow a user to guess the correct title and artist from a snippet of a song. The user can guess the artist of the song. If the user failed to answer correctly, the app will give the user the correct answer.
+
+**Game Description**
+
+User can Sign in or Sign up to be added to the database.
+After you Sign in successfully, enter your name into available name entry on the Terminal.
+Once you are signed in choose either "a", "b" or "c" Based on the music you heard.
+When you select your choice type either "a", "b" or "c" to see your result.
+If you failed to answer correctly you will be prompted to guess the artist name again.
 
  
 ## Production Links
@@ -24,22 +32,21 @@
 
 # User Stories
 
+  * As a user, I want to ask play a game.
+
   - ![Music Guessing Game](.asset/images/over-all-Activities.png)
 
-  * As a user, I want to ask play game as a new user.
+  * As a user, I want to signUp with a username and password.
 
-  - ![Sign-In](./asset/images/user-Sign-In.png)
+  - ![Sign-In](.asset/images/user-signUn.png)
 
-  * As a user, I want to login with a user name and password.
+ * As a user, I want to SignIn from the Database.
 
-  - ![Play from Terminal](./image)
+  - ![Play from](.asset/images/SignIn.png)
 
-  * As a user, I want to listen to music from through a terminal command.
+* As a user, I want to be able to guess the Artist of the song.
  
   - ![User Answer](.asset/images/who-The-Artist-of-Song.png)
-
-  * As a user, I want to be able to guess the Artist of the song.
- 
 
 
 # Wireframes
@@ -54,6 +61,23 @@
 # Domain Modeling UML Diagram (Backend)
 
 ![Domain Modeling](./asset/images/domain-modeling.jpg)
+
+## To Test the code
+
+- Run npm test 
+
+## To Start the Code
+
+- Run index.js
+
+## Technologies Used
+
+JavaScript,
+GitHub,
+Ubuntu,
+VS Code,
+Node Js
+
 
 ## Authors
 * Blandine Dasilveira
