@@ -11,7 +11,8 @@
     "start": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "start-game": "node './lib/guessing-game.js'"
   },
   "repository": {
     "type": "git",
