@@ -15,9 +15,13 @@ If you failed to answer correctly you will be prompted to guess the artist name 
  
 ## Production Links
 
-* [Server](Heroku) 
-* [Documentation - Swagger](swagger)
+* [Server](https://music-guessing-game.herokuapp.com/) 
+* [Documentation - Swagger](https://music-guessing-game.herokuapp.com/api-docs)
 * [Software Requirements Document](https://github.com/team-best/401midterm/blob/master/requirements.md)
+
+## Project management board
+
+* [Trello](https://trello.com/b/mwLqGIdt/401-midterm)
 
 ## Main Dependencies 
 
@@ -28,7 +32,6 @@ If you failed to answer correctly you will be prompted to guess the artist name 
 - [MongoDB](https://www.mongodb.com/)
 - [node-mp3-player](https://www.npmjs.com/package/node-mp3-player)
 - [chalk-Color](https://www.npmjs.com/package/chalk)
-
 
 # User Stories
 
@@ -53,11 +56,6 @@ If you failed to answer correctly you will be prompted to guess the artist name 
 
 ![Wireframes](./asset/images/wire-frame.jpg)
 
-
-# Project management board
-
-  * [Trello](https://trello.com/b/mwLqGIdt/401-midterm)
-
 # Domain Modeling UML Diagram (Backend)
 
 ![Domain Modeling](./asset/images/domain-modeling.jpg)
@@ -66,17 +64,21 @@ If you failed to answer correctly you will be prompted to guess the artist name 
 
 - Run npm test 
 
-## To Start the Code
+## To Start the Server
 
-- Run index.js
+- Run npm start
+
+## To Run the game 
+
+- npm run start-game
 
 ## Technologies Used
 
-JavaScript,
-GitHub,
-Ubuntu,
-VS Code,
+JavaScript
 Node Js
+GitHu
+Ubuntu
+VS Code
 
 
 ## Authors
