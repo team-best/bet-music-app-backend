@@ -22,6 +22,7 @@ If you failed to answer correctly you will be prompted to guess the artist name 
 ## Project management board
 
 * [Trello](https://trello.com/b/mwLqGIdt/401-midterm)
+* [Presentation SlideDeck](https://docs.google.com/presentation/d/1295GDweDSydg2gFVxBxZq_vKiDpz5hUoLod2WZGbfgw/edit?usp=sharing)
 
 ## Main Dependencies 
 
