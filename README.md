@@ -34,19 +34,19 @@ If you failed to answer correctly you will be prompted to guess the artist name 
 
   * As a user, I want to ask play a game.
 
-  - ![Music Guessing Game](.asset/images/over-all-Activities.png)
+  - ![Music Guessing Game](./asset/images/over-all-Activities.png)
 
   * As a user, I want to signUp with a username and password.
 
-  - ![Sign-In](.asset/images/user-signUn.png)
+  - ![Sign-In](./asset/images/user-signUn.png)
 
  * As a user, I want to SignIn from the Database.
 
-  - ![Play from](.asset/images/SignIn.png)
+  - ![Play from](./asset/images/SignIn.png)
 
 * As a user, I want to be able to guess the Artist of the song.
  
-  - ![User Answer](.asset/images/who-The-Artist-of-Song.png)
+  - ![User Answer](./asset/images/who-The-Artist-of-Song.png)
 
 
 # Wireframes
